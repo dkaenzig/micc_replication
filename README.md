@@ -1,7 +1,7 @@
 # Macroeconomic Impact of Climate Change
 Data and Stata code to replicate the main local projection results
 
-**Reference**: Bilal and Känzig (2024) "The Macroeconomic Impact of Climate Change: Global vs. Local Temperature", https://www.nber.org/papers/w32450?utm_campaign=ntwh&utm_medium=email&utm_source=ntwg7 (working paper)
+**Reference**: Bilal and Känzig (2024) "The Macroeconomic Impact of Climate Change: Global vs. Local Temperature", https://www.nber.org/papers/w32450 (working paper)
 
 Tested in: Stata 16.1 on Windows 11 (64-bit)
 
