@@ -43,25 +43,28 @@ use "data\micc_data.dta", clear
 keep if year >= 1960
 keep if year <= 2019 
 
-* specs for local projection
-local p = 2          // p = number of lags 
-local ps = 2         // p = number of lags for shock
-local horizon = 10   // Impulse horizon
-local estdiff = 2    // 0: level, 1: differences, 2: cumulative
+* additional variables
+g dlnpoil_wti = D.lnpoil_wti
 
-local CI1 = 0.1    	  // Confidence level 1
-local CI2 = 0.32	  // Confidence level 2
+* specs for local projection
+local p = 2           // p = number of lags 
+local ps = 2          // p = number of lags for shock
+local horizon = 10    // Impulse horizon
+local estdiff = 2     // 0: level, 1: differences, 2: cumulative
+
+local CI1 = 0.05      // Confidence level 1
+local CI2 = 0.10	  // Confidence level 2
 local z1 = abs(invnormal(`CI1'/2))  
 local z2 = abs(invnormal(`CI2'/2))
 
 local detrtype $shockname
 
-local shock gtmp_noaa_aw_dt`detrtype'
-local vars lnrgdppc_world_pwt gtmp_noaa_aw 
+local shock gtmp_bkly_aw_dt`detrtype'
+local vars lnrgdppc_world_pwt gtmp_bkly_aw 
 local varsnames " "World real GDP" "Global temperature"  " 
 local labels " "Percent" "°C" "
 
-local cntrls L(0/2).(recessiondates) 
+local cntrls L(0/2).(recessiondates) L(1/2).(dlnrgdppc_world_pwt dlnpoil_wti treasury1y) 
 
 local savefigs = $savefigs    
 local verb $verb
