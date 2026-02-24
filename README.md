@@ -1,16 +1,16 @@
 # The Macroeconomic Impact of Climate Change  
 ## Global vs. Local Temperature  
 
-**Adrien Bilal and Diego R. Känzig (2026)**  
+Adrien Bilal and Diego R. Känzig (2026)  
 Forthcoming, *Quarterly Journal of Economics*  
 NBER Working Paper 32450  
 https://www.nber.org/papers/w32450  
 
-This repository contains the replication materials for:
+This repository contains the replication package for the paper.
 
-> *The Macroeconomic Impact of Climate Change: Global vs. Local Temperature  (Bilal and Känzig, 2026)*
+Detailed replication documentation — including data descriptions, variable definitions, and step-by-step instructions — is provided in **`0_read-me.pdf`**.
 
-All figures, tables, and quantitative results in the paper and online appendix can be reproduced using the files provided here.
+All figures, tables, and quantitative results in the paper and online appendix can be reproduced using the files in this repository.
 
 ---
 
