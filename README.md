@@ -3,8 +3,8 @@
 
 Adrien Bilal and Diego R. Känzig (2026)  
 Forthcoming, *Quarterly Journal of Economics*  
-NBER Working Paper 32450  
-https://www.nber.org/papers/w32450  
+NBER Working Paper 32450: https://www.nber.org/papers/w32450  
+Ungated version: https://dkaenzig.github.io/diegokaenzig.com/Papers/bk_micc.pdf
 
 This repository contains the replication package for the paper.
 
