@@ -8,7 +8,7 @@ Ungated version: https://dkaenzig.github.io/diegokaenzig.com/Papers/bk_micc.pdf
 
 This repository contains the replication package for the paper.
 
-Detailed replication documentation — including data descriptions, variable definitions, and step-by-step instructions — is provided in **`0_read-me.pdf`**.
+Detailed replication documentation, including data descriptions, variable definitions, and step-by-step instructions, is provided in **`0_read-me.pdf`**.
 
 All figures, tables, and quantitative results in the paper and online appendix can be reproduced using the files in this repository.
 
@@ -78,15 +78,5 @@ This folder stores all generated outputs:
 The folder is populated automatically when running the empirical and model scripts.
 
 ---
-
-## 0_read-me.pdf
-
-Detailed replication documentation instructions are provided in the `0_read-me.pdf' file, including:
-
-- Description of all datasets  
-- Variable definitions and sources  
-- Step-by-step replication guide  
-- Computational details  
-
 
 For questions, please contact the authors at dkaenzig@northwestern.edu and adrienbilal@stanford.edu
