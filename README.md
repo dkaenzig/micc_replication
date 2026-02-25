@@ -75,8 +75,8 @@ This folder contains all MATLAB code for the quantitative model.
 
 This folder stores all generated outputs:
 
-- `1_figures/` — All figures  
-- `2_tables/` — All tables  
+- `1_figures/`: All figures  
+- `2_tables/`: All tables  
 
 The folder is populated automatically when running the empirical and model scripts.
 
