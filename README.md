@@ -27,13 +27,16 @@ The full replication runs in approximately 20 minutes on a modern machine.
 
 ## Repository Structure
 1_empirics/
+
 2_model/
+
 3_output/
+
 0_read-me.pdf
 
 ---
 
-## 1_empirics — Empirical Analysis
+## 1_empirics: Empirical Analysis
 
 This folder contains all code and data required to reproduce the empirical results in the paper.
 
@@ -51,7 +54,7 @@ This folder contains all code and data required to reproduce the empirical resul
 
 ---
 
-## 2_model — Quantitative Model
+## 2_model: Quantitative Model
 
 This folder contains all MATLAB code for the quantitative model.
 
@@ -68,7 +71,7 @@ This folder contains all MATLAB code for the quantitative model.
 
 ---
 
-## 3_output — Replication Results
+## 3_output: Replication Results
 
 This folder stores all generated outputs:
 
