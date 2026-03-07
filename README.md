@@ -12,8 +12,6 @@ Detailed replication documentation, including data descriptions, variable defini
 
 All figures, tables, and quantitative results in the paper and online appendix can be reproduced using the files in this repository.
 
----
-
 ## Software Requirements
 
 The code was written and tested in:
@@ -23,8 +21,6 @@ The code was written and tested in:
 
 The full replication runs in approximately 20 minutes on a modern machine.
 
----
-
 ## Repository Structure
 1_empirics/
 
@@ -33,8 +29,6 @@ The full replication runs in approximately 20 minutes on a modern machine.
 3_output/
 
 0_read-me.pdf
-
----
 
 ## 1_empirics: Empirical Analysis
 
@@ -52,8 +46,6 @@ This folder contains all code and data required to reproduce the empirical resul
 - `data/` subfolder containing time-series and panel datasets  
   (Barro–Ursúa sample and Penn World Table sample, including temperature series and constructed shocks)
 
----
-
 ## 2_model: Quantitative Model
 
 This folder contains all MATLAB code for the quantitative model.
@@ -69,8 +61,6 @@ This folder contains all MATLAB code for the quantitative model.
   - Calculates welfare and Social Cost of Carbon (SCC)  
   - Produces all quantitative figures and tables  
 
----
-
 ## 3_output: Replication Results
 
 This folder stores all generated outputs:
@@ -80,6 +70,28 @@ This folder stores all generated outputs:
 
 The folder is populated automatically when running the empirical and model scripts.
 
----
-
 For questions, please contact the authors at dkaenzig@northwestern.edu and adrienbilal@stanford.edu
+
+## License
+
+The data are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+The code in this repository is licensed under the [BSD 3-Clause License](https://opensource.org/license/BSD-3-Clause).
+
+You are free to share and adapt the data and code provided appropriate credit is given. If you use these data, please cite the following paper:
+
+Bilal, Adrien and Känzig, Diego R. (forthcoming).
+The Macroeconomic Impact of Climate Change: Global Versus Local Temperature.
+The Quarterly Journal of Economics.
+https://doi.org/10.1093/qje/qjag011
+
+```bibtex
+@article{bilalkanzig2026macroeconomic,
+  title   = {The Macroeconomic Impact of Climate Change: Global Versus Local Temperature},
+  author  = {Bilal, Adrien and K{\"a}nzig, Diego R.},
+  journal = {The Quarterly Journal of Economics},
+  year    = {2026},
+  note    = {Forthcoming},
+  doi     = {10.1093/qje/qjag011}
+}
+```
