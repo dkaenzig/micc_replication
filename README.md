@@ -78,7 +78,7 @@ The data are licensed under the [Creative Commons Attribution 4.0 International 
 
 The code in this repository is licensed under the [BSD 3-Clause License](https://opensource.org/license/BSD-3-Clause).
 
-You are free to share and adapt the data and code provided appropriate credit is given. If you use these data, please cite the following paper:
+You are free to share and adapt the data and code provided appropriate credit is given. If you use these data or code, please cite the following paper:
 
 Bilal, Adrien and Känzig, Diego R. (forthcoming).
 The Macroeconomic Impact of Climate Change: Global Versus Local Temperature.
