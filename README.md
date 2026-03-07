@@ -3,8 +3,8 @@
 
 Adrien Bilal and Diego R. Känzig (2026)  
 Forthcoming, *Quarterly Journal of Economics*  
-NBER Working Paper 32450: https://www.nber.org/papers/w32450  
-Ungated version: https://dkaenzig.github.io/diegokaenzig.com/Papers/bk_micc.pdf
+Published version: https://doi.org/10.1093/qje/qjag011  
+Ungated version: https://dkaenzig.github.io/diegokaenzig.com/Papers/bk_micc.pdf  
 
 This repository contains the replication package for the paper.
 
@@ -80,10 +80,10 @@ The code in this repository is licensed under the [BSD 3-Clause License](https:/
 
 You are free to share and adapt the data and code provided appropriate credit is given. If you use these data or code, please cite the following paper:
 
-Bilal, Adrien and Känzig, Diego R. (forthcoming).
-The Macroeconomic Impact of Climate Change: Global Versus Local Temperature.
-The Quarterly Journal of Economics.
-https://doi.org/10.1093/qje/qjag011
+Bilal, Adrien and Känzig, Diego R. (forthcoming).  
+The Macroeconomic Impact of Climate Change: Global Versus Local Temperature  
+The Quarterly Journal of Economics  
+https://doi.org/10.1093/qje/qjag011  
 
 ```bibtex
 @article{bilalkanzig2026macroeconomic,
